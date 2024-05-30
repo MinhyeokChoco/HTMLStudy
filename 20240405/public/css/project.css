@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap {
+    background-image: url(https://cdn.imweb.me/thumbnail/20240227/777a90ee5e2fd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1850px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* 화면이 밑으로 더 넘어가지 않음 페이지 버튼이 잘림, 확인 해야 함 */
+}
+
+.title {
+    width: 100%;
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title>.title-pink {
+    color: rgb(252, 82, 191);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.title>.title-big {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.title>.title-small {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container {
+    width: 1590px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.container>.tomato {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.container>.tomato>a>.tomato-image>#tomato {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.tomato>a>.tomato-font {
+    margin-top: 8px;
+}
+
+.container>.super {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.container>.super>a>.super-image>#super {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.super>a>.super-font {
+    margin-top: 8px;
+}
+
+.container>.craft {
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.container>.craft>a>.craft-image>#craft {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.craft>a>.craft-font {
+    margin-top: 8px;
+}
+
+.container>.play {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.container>.play>a>.play-image>#play {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.play>a>.play-font {
+    width: 365.81px;
+    margin-top: 8px;
+}
+
+.container>.yahaha {
+    padding: 30px;
+}
+
+.container>.yahaha>a>.yahaha-image>#yahaha {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.yahaha>a>.yahaha-font {
+    margin-top: 8px;
+}
+
+.container>.darim {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.container>.darim>a>.darim-image>#darim {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.darim>a>.darim-font {
+    margin-top: 8px;
+}
+
+.container>.box {
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.container>.box>a>.box-image>#box {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.box>a>.box-font {
+    margin-top: 8px;
+}
+
+.container>.xrin {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.container>.xrin>a>.xrin-image>#xrin {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.xrin>a>.xrin-font {
+    margin-top: 8px;
+}
+
+.container>.trend {
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.container>.trend>a>.trend-image>#trend {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 364px;
+    height: 207px;
+}
+
+.container>.trend>a>.trend-font {
+    margin-top: 8px;
+}
+
+.wrap>.search {
+    width: 220px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap>.search>#search {
+    width: 220px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.wrap>.search>#search:hover {
+    border-bottom: 1px solid rgb(90, 120, 255);
+}
+
+.wrap>.search>#search:focus {
+    border-bottom: 1px solid rgb(75, 100, 255);
+}
+
+.wrap>.search>i {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.wrap>.search>i::before {
+    content: "";
+    color: white;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    top: 7px;
+    left: 3px;
+}
+
+.wrap>.search>i::after {
+    content: "";
+    color: white;
+    position: absolute;
+    width: 0.1px;
+    height: 7px;
+    rotate: -40deg;
+    border: 1px solid white;
+    top: 20px;
+    left: 17px;
+}
+
+.wrap>.page {
+    width: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+}
+
+.wrap>.page div {
+    cursor: pointer;
+    font-size: bold;
+}
+
+.wrap>.page div:hover {
+    color: white;
+}
+
+.wrap>.remote-wrap {
+    width: 150px;
+    height: 1850px;
+    position: absolute;
+    right: -8px;
+}
+
+.wrap>.remote-wrap>.remote {
+    width: 80px;
+    height: 120px;
+    border: 1px solid black;
+    background: transparent;
+    position: sticky;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap>.remote-wrap>.remote .top {
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10%;
+    color: white;
+}
+
+.wrap>.remote-wrap>.remote .bottom {
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10%;
+    color: white;
+}

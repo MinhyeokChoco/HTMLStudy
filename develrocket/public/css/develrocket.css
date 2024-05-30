@@ -1,0 +1,179 @@
+.container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container>.content {
+    width: 60%;
+    height: 30%;
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.container>.content>.qa-title {
+    padding: 10px;
+    border-bottom: 1px solid red;
+    color: deepskyblue;
+}
+
+.container>.content>.qa-body {
+    padding: 20px;
+}
+
+.container>.content>.qa-body>.diffi {
+    padding: 10px;
+    border: 1px solid deepskyblue;
+    display: column;
+    justify-content: center;
+}
+
+.container>.content>.qa-body>.diffi>.diffi-q {
+    color: blueviolet;
+}
+
+.container>.content>.qa-body>.diffi-a {
+    font-weight: 800;
+}
+
+.container>.content>.qa-body>.diffi>.ans1 {
+    margin-top: 5px;
+    font-size: 8px;
+}
+
+.container>.content>.qa-body>.merit {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid deepskyblue;
+    display: column;
+    justify-content: center;
+}
+
+.container>.content>.qa-body>.merit>.merit-q {
+    color: blueviolet;
+}
+
+.container>.content>.qa-body>.merit>.ans2 {
+    margin-top: 10px;
+    font-size: 8px;
+}
+
+.container>.request {
+    width: 200px;
+    height: auto;
+    padding: 0 30px;
+}
+
+.container>.request>.price {
+    width: 198px;
+    height: 100px;
+    padding: 0;
+    border: 1px solid red;
+    position: relative;
+}
+
+.container>.request>.price>.sale {
+    width: 10px;
+    height: auto;
+    font-size: 8px;
+    border: 1px solid red;
+    color: red;
+    position: relative;
+    left: 10px;
+}
+
+.container>.request>.price>.net-price {
+    font-size: 10px;
+    color: gray;
+    text-decoration: line-through;
+    position: relative;
+    left: 15px;
+}
+
+.container>.request>.price>.sale-price {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.container>.request>.price>.share {
+    size: 3px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.container>.request>.price>.button {
+    border: 1px solid blueviolet;
+    border-radius: 2px;
+    background-color: blueviolet;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: bold;
+    width: 180px;
+    height: 25px;
+    position: relative;
+    left: 5%;
+    bottom: -15px;
+}
+
+.container>.request>.guide> {
+    height: 150px;
+    display: flex;
+
+}
+
+.container>.request>.guide>.guide-line {
+    height: 65px;
+    border: 1px solid red;
+    background-color: lightcyan;
+    font-size: 8px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.container>.request>.monitoring {
+    height: 12px;
+    border: 1px solid red;
+    font-size: 6.5px;
+    color: blueviolet;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.request>.telephone {
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.container>.request>.telephone>.inquire {
+    font-size: 8px;
+    padding: 10px;
+}
+
+.container>.request>.telephone>.call {
+    display: flex;
+    padding-left: 10px;
+
+}
+
+.container>.request>.telephone>.number-image {
+    border-image-width: 2px;
+    padding-left: 10px;
+}
+
+.container>.request>.telephone>.call>.number {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
